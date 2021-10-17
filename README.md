@@ -4,8 +4,8 @@
 - [Overview of the Amazon Vine Analysis](#Overview-of-the-Amazon-Vine-Analysis)	
 - [Resources](#resources)	
 - [The Amazon Vine Analysis Result](#The-MechaCar-Statistical-Analysis-Result)
-  - [ETL on Amazon Product Reviews](ETL-on-Amazon-Product-Reviews)
-  - [Bias of Vine Reviews](Bias-of-Vine-Reviews)
+  - [ETL on Amazon Product Reviews](--ETL-on-Amazon-Product-Reviews)
+  - [Bias of Vine Reviews](--Bias-of-Vine-Reviews)
 - [The Amazon Vine Analysis Summary](#-The-Amazon-Vine-Analysis-Summary)
 ## `Overview of the Amazon Vine Analysis`	
 	
@@ -30,25 +30,29 @@ The transformed data into the appropriate tables in pgAdmin is following:
 Screens tables pgAdmin
 ### `- Bias of Vine Reviews`
 
-The result of the Bias of Vine Reviews can be found in the [Bias of Vine Reviews](./Vine_Review_Analysis.ipynb) file.
+The result of the Bias of Vine Reviews can be found in the [Vine_Review_Analysis](./Vine_Review_Analysis.ipynb) file.
 
-According to the result of the Bias of Vine Reviews the number of Vine reviews is _____ and non-Vine reviews is )___
+According to the result of the Bias of Vine Reviews the number of Vine reviews is 18 and non-Vine reviews is ) 7652.
 
-screen
-
-
-Additionally, "5-star Vine" reviews  and How many "5-star non-Vine" reviews are ___ and respectively.
-
-Screen
+screen 1
 
 
-Also, the percentage of "5 star Vine" reviews is _____. And, the percentage of "5 star non-Vine" reviews is
+Additionally, "5-star Vine" reviews and How many "5-star non-Vine" reviews are 9 and 4376 respectively.
 
-Screen
+Screen 2
+
+Also, the percentage of "5 star Vine" reviews is 0.1%. And, the percentage of "5 star non-Vine" reviews is 57.1%.
+
+Screen 3
 
 ## `The Amazon Vine Analysis Summary`	
 
-According to the result of the Bias of Vine Reviews there not is any positivity bias for reviews in the Vine program.
+According to the result of the Bias of Vine Reviews there is not any positivity bias for reviews in the Vine program or there is a
 
-Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+The results of the analysis shows small paid part of reviews. 
+Additionally, even the count of "5-star paid of all paid" is 50% and that is less then "5-star unpaid of all unpaid" by 7.2% it can be regarded as Bias of Vine Reviews. 
+
+screen 4
+
+But, repeatedly paid reviews are small part of all reviews (0.2%), so there is not any positivity bias for Vine reviews.
 
