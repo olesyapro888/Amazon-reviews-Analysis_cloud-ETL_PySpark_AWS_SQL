@@ -22,21 +22,33 @@ The analysis is created using next software: Colaboratory (a hosted Jupyter note
 ## `The Amazon Vine Analysis Result`
 ### `- ETL on Amazon Product Reviews`	
 
-Using the cloud ETL process, it needs to create an AWS RDS database with tables in pgAdmin, pick a dataset from the Amazon Review datasets, and extract the dataset into a DataFrame. Next, transform the DataFrame into four separate DataFrames that match the table schema in pgAdmin. Then, upload the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been uploaded.
+Using the cloud ETL process, the AWS RDS database with tables in pgAdmin is created and, the dataset amazon_reviews_multilingual_FR from the Amazon Review datasets is picked and extracted into a DataFrame. Also, the DataFrame is transformed into four separate DataFrames that match the table schema in pgAdmin. 
 
 The result of the ETL on Amazon Product Reviews can be found in the [Amazon_Reviews_ETL](./Amazon_Reviews_ETL.ipynb) file.
 
-According to our results .
-
-In addition, 
+The transformed data into the appropriate tables in pgAdmin is following:
+Screens tables pgAdmin
 ### `- Bias of Vine Reviews`
 
-Using PySpark, Pandas, or SQL it needs to determine if there is any bias towards reviews that were written as part of the Vine program. Also, to determine if having a paid Vine review makes a difference in the percentage of 5-star reviews.
+The result of the Bias of Vine Reviews can be found in the [Bias of Vine Reviews](./Vine_Review_Analysis.ipynb) file.
 
-The result of the Bias of Vine Reviews can be found in the [Bias of Vine Reviews](./Vine_Review_Analysis.ipynb) and [Bias of Vine Reviews Queries](./Vine_Review_Analysis.sql) files.
+According to the result of the Bias of Vine Reviews the number of Vine reviews is _____ and non-Vine reviews is )___
 
-According to the 
+screen
+
+
+Additionally, "5-star Vine" reviews  and How many "5-star non-Vine" reviews are ___ and respectively.
+
+Screen
+
+
+Also, the percentage of "5 star Vine" reviews is _____. And, the percentage of "5 star non-Vine" reviews is
+
+Screen
+
 ## `The Amazon Vine Analysis Summary`	
-- The total summary table shows below:
 
-Additionally
+According to the result of the Bias of Vine Reviews there not is any positivity bias for reviews in the Vine program.
+
+Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+
