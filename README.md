@@ -25,16 +25,11 @@ The analysis is created using next software: Colaboratory (a hosted Jupyter note
 Using the cloud ETL process, the AWS RDS database with tables in pgAdmin is created and, the dataset amazon_reviews_multilingual_FR from the Amazon Review datasets is picked and extracted into a DataFrame. Also, the DataFrame is transformed into four separate DataFrames that match the table schema in pgAdmin. 
 
 ![image](https://user-images.githubusercontent.com/68247343/137624843-c0248f41-414f-4f25-9412-678c449105ac.png)
+![image](https://user-images.githubusercontent.com/68247343/137624867-cbb900b0-c755-4a7d-852b-d37eee93c3ec.png)
 ![image](https://user-images.githubusercontent.com/68247343/137624853-37f34836-0c4b-45cb-b926-2ce9eea68d26.png)
 ![image](https://user-images.githubusercontent.com/68247343/137624859-4bfce7be-05f8-4048-8f86-6aee81f81673.png)
-![image](https://user-images.githubusercontent.com/68247343/137624867-cbb900b0-c755-4a7d-852b-d37eee93c3ec.png)
 
-Using the cloud ETL process, the AWS RDS database with tables in pgAdmin is created and, the dataset amazon_reviews_multilingual_FR from the Amazon Review datasets is picked and extracted into a DataFrame. Also, the DataFrame is transformed into four separate DataFrames that match the table schema in pgAdmin. 
-
-The result of the ETL on Amazon Product Reviews can be found in the [Amazon_Reviews_ETL](./Amazon_Reviews_ETL.ipynb) file.
-
-The transformed data into the appropriate tables in pgAdmin is following:
-Screens tables pgAdmin
+The result of the ETL process on Amazon Product Reviews can be found in the [Amazon_Reviews_ETL](./Amazon_Reviews_ETL.ipynb) file.
 ### `- Bias of Vine Reviews`
 
 The result of the Bias of Vine Reviews can be found in the [Vine_Review_Analysis](./Vine_Review_Analysis.ipynb) file.
@@ -55,12 +50,11 @@ Also, the percentage of "5 star Vine" reviews is 0.1%. And, the percentage of "5
 
 ## `The Amazon Vine Analysis Summary`	
 
-According to the result of the Bias of Vine Reviews there is not any positivity bias for reviews in the Vine program or there is a
+According to the result of the Bias of Vine Reviews there is not any bias toward favorable reviews from Vine members in the amazon_reviews_multilingual_FR dataset.
 
 The results of the analysis shows small paid part of all reviews. 
-Additionally, the count of "5-star paid of all paid" is 50% and that is less then "5-star unpaid of all unpaid" by 7.2% it can be regarded as Bias of Vine Reviews. 
+Additionally, the count of "5-star paid of all paid" is 50% and that is less than "5-star unpaid of all unpaid" by 7.2%. So, it can be regarded as Bias of Vine Reviews. 
 
 ![image](https://user-images.githubusercontent.com/68247343/137624803-c5bc6c99-74dd-463c-8d9e-4c1d4c3263cb.png)
 
-But, repeatedly paid reviews are small part of all reviews (0.2%), so there is not any positivity bias for Vine reviews.
-
+However, repeatedly, paid reviews are small part of all reviews (0.2%) so, there is not any positivity bias for Vine reviews from Vine members.
