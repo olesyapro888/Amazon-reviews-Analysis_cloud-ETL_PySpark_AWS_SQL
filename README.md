@@ -1,4 +1,4 @@
-# Amazon Vine Analysis. Project 16 of the UofT.
+# Amazon Vine Analysis. The project 16 of the University of Toronto.
 ## `-Contents-`	
 	
 - [Overview of the Amazon Vine Analysis](#Overview-of-the-Amazon-Vine-Analysis)	
@@ -7,9 +7,10 @@
   - [ETL on Amazon Product Reviews](#--ETL-on-Amazon-Product-Reviews)
   - [Bias of Vine Reviews](#--Bias-of-Vine-Reviews)
 - [The Amazon Vine Analysis Summary](#The-Amazon-Vine-Analysis-Summary)
+
 ## `Overview of the Amazon Vine Analysis`	
 	
-The purpose for the the project is to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin by using PySpark. Also, to determine if there is any bias toward favorable reviews from Vine members in the dataset by using PySpark, Pandas, SQL.
+The purpose of the the project is to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin by using PySpark. Also, to determine if there is any bias toward favorable reviews from Vine members in the dataset by using PySpark, Pandas, SQL.
 
 The analysis consists the following: 
 - Perform ETL on Amazon Product Reviews.
