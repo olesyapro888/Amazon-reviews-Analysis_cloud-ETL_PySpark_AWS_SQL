@@ -1,4 +1,5 @@
-# Amazon Vine Analysis. The project 16 of the University of Toronto.
+# Amazon reviews of paid Amazon Vine program Analysis using PySpark, and the ETL with AWS RDS instance, SQL, pgAdmin.
+
 ## `-Contents-`	
 	
 - [Overview of the Amazon Vine Analysis](#Overview-of-the-Amazon-Vine-Analysis)	
